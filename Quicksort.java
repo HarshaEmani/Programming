@@ -43,20 +43,6 @@ class Quicksort {
         return j;
     }
 
-    // public static int partition(int A[],int l,int h){
-    // int pivot=A[l];
-    // int i=l,j=h;
-    // do{
-    // do{i++;}while(A[i]<=pivot);
-    // do{j--;}while(A[j]>pivot);
-    // if(i<j)
-    // swap(A,i,j);
-    // } while(i<j);
-
-    // swap(A,l,j);
-    // return j;
-    // }
-
     public static void main(String[] args) {
         int arr[] = { 11,13,7,12,16,9,24,5,10,3 };
 
